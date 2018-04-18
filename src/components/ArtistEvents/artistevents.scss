@@ -1,44 +1,44 @@
 .events {
-    position: relative;
-    &__button {
-        z-index: 100;
-        button {
-            line-height: 25px;
-            border: 1px solid white;
-            border-radius: 3px;
-            background-color: transparent;
-            color:#2d3b4d;
-            text-shadow: 1px 1px 3px white;
-            cursor: pointer;
-            outline: none;
-            margin: 0 5px;
-            &:hover {
-                background-color: #2d3b4d;
-                color: white;
-                text-shadow: 1px 1px 3px #2d3b4d;
-            }
-        }
-    }
-    &__list {
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 200;
-        width: 290px;
+  position: relative;
+  &__button {
+    button {
+      z-index: 100;
+      line-height: 25px;
+      border: 1px solid white;
+      border-radius: 3px;
+      background-color: transparent;
+      color:#2d3b4d;
+      text-shadow: 1px 1px 3px white;
+      cursor: pointer;
+      outline: none;
+      margin: 0 5px;
+      &:hover {
         background-color: #2d3b4d;
-        border: 1px solid white;
-        border-radius: 3px;
         color: white;
-        cursor: pointer;
-        .event {
-            padding: 5px;
-            border: 1px solid white;
-            border-radius: 3px;
-            p {
-                span {
-                    font-style: italic;
-                }
-            }
-        }
+        text-shadow: 1px 1px 3px #2d3b4d;
+      }
     }
+  }
+  &__list {
+    top: 0;
+    position: absolute;
+    left: 0;
+    z-index: 200;
+    width: 290px;
+    background-color: #2d3b4d;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    .event {
+      padding: 5px;
+      border: 1px solid white;
+      border-radius: 3px;
+      p {
+        span {
+          font-style: italic;
+        }
+      }
+    }
+  }
 }

@@ -4,5 +4,5 @@ import artists from './artists';
 import events from './events';
 
 export default combineReducers({
-    favorites, artists, events
+  favorites, artists, events
 });

@@ -1,33 +1,33 @@
 .add_artist {
-    p {
-        margin: 5px 0;
-        input {
-            padding: 5px; 
-            margin: 5px;
-            min-width: 280px;
-            width: 90%;
-            outline: none;
-            border: 2px solid #2d3b4d;
-            font-size: 16px;
-        }
-        .invalid_val {
-            border-color: coral;
-        }
-        button {
-            line-height: 25px;
-            border: 1px solid white;
-            border-radius: 3px;
-            background-color: transparent;
-            color:#2d3b4d;
-            text-shadow: 1px 1px 3px white;
-            cursor: pointer;
-            outline: none;
-            margin: 0 15px;
-            &:hover {
-                background-color: #2d3b4d;
-                color: white;
-                text-shadow: 1px 1px 3px #2d3b4d;
-            }
-        }
+  p {
+    margin: 5px 0;
+    input {
+      padding: 5px; 
+      margin: 5px;
+      min-width: 280px;
+      width: 90%;
+      outline: none;
+      border: 2px solid #2d3b4d;
+      font-size: 16px;
     }
+    .invalid_val {
+      border-color: coral;
+    }
+    button {
+      line-height: 25px;
+      border: 1px solid white;
+      border-radius: 3px;
+      background-color: transparent;
+      color:#2d3b4d;
+      text-shadow: 1px 1px 3px white;
+      cursor: pointer;
+      outline: none;
+      margin: 0 15px;
+      &:hover {
+        background-color: #2d3b4d;
+        color: white;
+        text-shadow: 1px 1px 3px #2d3b4d;
+      }
+    }
+  }
 }

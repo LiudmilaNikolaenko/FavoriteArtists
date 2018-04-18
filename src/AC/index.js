@@ -8,39 +8,38 @@ export const SUCCESS = '_SUCCESS';
 export const FAIL = '_FAIL';
 
 export function createArtistState(name) {
-    return {
-        type: CREATE_ARTIST_STATE,
-        payload: { name },
-    }
+  return {
+    type: CREATE_ARTIST_STATE,
+    payload: { name },
+  }
 };
 
 export function loadArtist(name) {
-    return {
-        type: LOAD_ARTIST,
-        payload: { name },
-        callAPI: `https://rest.bandsintown.com/artists/${encodeURIComponent(name)}?app_id=study`
-    }
+  return {
+    type: LOAD_ARTIST,
+    payload: { name },
+    callAPI: `https://rest.bandsintown.com/artists/${encodeURIComponent(name)}?app_id=study`
+  }
 };
 
 export function addArtist(name) {
-    return {
-        type: ADD_ARTIST,
-        payload: { name },
-    }
+  return {
+    type: ADD_ARTIST,
+    payload: { name },
+  }
 };
 
 export function deleteArtist(name) {
-    return {
-        type: DELETE_ARTIST,
-        payload: { name }
-    }
+  return {
+    type: DELETE_ARTIST,
+    payload: { name }
+  }
 };
 
 export function loadEvents(name) {
-    return {
-        type: LOAD_EVENTS,
-        payload: { name },
-        callAPI: `https://rest.bandsintown.com/artists/${encodeURIComponent(name)}/events?app_id=study`
-    }
+  return {
+    type: LOAD_EVENTS,
+    payload: { name },
+    callAPI: `https://rest.bandsintown.com/artists/${encodeURIComponent(name)}/events?app_id=study`
+  }
 };
-
